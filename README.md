@@ -1,4 +1,4 @@
-# Web Scraping and Time Series Analysis of Stock Markets
+# Stocks Uncovered: Web Scraping and Time Series Analysis
 
 ## Overview
 This project introduces web scraping and time series analysis to gain insights into stock markets. Over four weeks, participants will learn how to collect, clean, and analyze stock data, working up to building a basic predictive model. No prior experience is required; each week builds on foundational concepts.
@@ -16,7 +16,9 @@ This project introduces web scraping and time series analysis to gain insights i
 Here’s the revised **Week 1** schedule with an emphasis on Python basics, Jupyter Notebook, and introductory libraries.
 
 ---
-Install Python from https://www.python.org/downloads/
+Install Python from [Python](https://www.python.org/downloads/)<br>
+Download VS Code from [Visual Studio Code](https://code.visualstudio.com/)<br>
+Download the Python extension for Visual Studio Code from the Extensions menu on the left side.<br>
 
 ### **Week 1: Introduction to Python and Data Tools**
 - **Objective**: Get familiar with Python, Jupyter Notebook, and essential data libraries for the project.
@@ -27,11 +29,21 @@ Install Python from https://www.python.org/downloads/
   - **pandas**: DataFrames, data manipulation, and basic operations.
   - **matplotlib**: Plotting and visualizing data.
 
-- **Resources**:
-  - [Python Basics Tutorial](https://www.learnpython.org/)
-  - [Getting Started with Jupyter Notebooks](https://realpython.com/jupyter-notebook-introduction/)
-  - [NumPy Quickstart](https://numpy.org/doc/stable/user/quickstart.html)
-  - [pandas Getting Started](https://pandas.pydata.org/pandas-docs/stable/getting_started/index.html)
+- **Setting up VS code for jupyter notebook**
+Video link: [Jupyter Notebook Setup](https://youtu.be/suAkMeWJ1yE)
+Note: You may skip the virtual environment creation, Just click on any python version and thing will run smoothly...
+
+Write `pip install numpy pandas matplotlib` in any terminal to install them.
+
+- **Resources for Python**:<br>
+Learn as much as you can! These are required for any Data Science projects. You may refer other resources too.
+  - [W3 Schools](https://www.w3schools.com/python/): You may refer W3Schools for numpy pandas and matplotlib too.
+  - [Python Official Documentation](https://docs.python.org/3.13/tutorial/index.html)
+  - [YouTube python Tutorial](https://youtu.be/kqtD5dpn9C8?si=GkOcxIJrRW_oS-Kd)
+  - [NumPy docs](https://numpy.org/doc/2.1/user/absolute_beginners.html)
+  - [numpy video](https://www.youtube.com/watch?v=QUT1VHiLmmI)
+  - [pandas docs](https://pandas.pydata.org/docs/getting_started/intro_tutorials/index.html)
+  - [pandas video](https://www.youtube.com/watch?v=dUpyC40cF6Q&list=PLUaB-1hjhk8GZOuylZqLz-Qt9RIdZZMBE)
   - [matplotlib Tutorial](https://matplotlib.org/stable/tutorials/introductory/pyplot.html)
 
 - **Activities**:
@@ -44,7 +56,8 @@ Install Python from https://www.python.org/downloads/
 
 ---
 
-### **Week 2: Introduction to Web Scraping**
+(week 2-4 will be updated)
+### **Week 2: Introduction to Web Scraping** 
 - **Objective**: Grasp web scraping basics and collect data.
 - **Topics**:
   - HTML structure, HTTP requests.
