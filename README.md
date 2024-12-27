@@ -56,7 +56,6 @@ Learn as much as you can! These are required for any Data Science projects. You 
 
 ---
 
-(week 2-4 will be updated)
 ### **Week 2: Introduction to Web Scraping** 
 - **Objective**: Grasp web scraping basics and collect data.
 - **Topics**:
@@ -76,18 +75,41 @@ Learn as much as you can! These are required for any Data Science projects. You 
   demo: https://github.com/israel-dryer/Yahoo-Finance-Scraper
 ---
 
-### **Week 3: Introduction to Time Series Analysis** 
-Will be updated later
-- **Objective**: Understand time series concepts like trends and seasonality.
-- **Topics**:
-  - Basics of time series data and visualization.
-  - Simple moving averages and trend analysis.
-- **Resources**:
-  - [Time Series Basics](https://towardsdatascience.com/a-guide-to-time-series-visualization-with-python-73182b3c9b44)
-  - [Plotting Time Series with Pandas](https://pandas.pydata.org/pandas-docs/stable/user_guide/visualization.html)
-- **Activities**:
-  - Visualize stock data and identify patterns.
-  - Calculate moving averages to smooth out trends.
+### **Week 3: Introduction to Time Series Analysis**
+
+#### **Objective**
+To understand fundamental concepts of time series analysis, including trends and seasonality.
+
+#### **Topics**
+- Basics of time series data and its visualization.
+- Simple moving averages and trend analysis.
+
+#### **Resources**
+- **Primary Resource**: [STAT-510](https://online.stat.psu.edu/stat510/)
+  - Read lessons 1, 2, 3, and 4 (theoretical concepts).
+- **Python Practicals**:
+  - Learn to use ARIMA and SARIMA models from the `statsmodels.tsa` package.
+  - [Microsoft Introduction to ML: ARIMA](https://github.com/microsoft/ML-For-Beginners/tree/main/7-TimeSeries/2-ARIMA): Also try to do `assignment.md` given here.
+
+> **Note**: The recommended book includes R code examples, which are not essential for this course. Python is sufficient for our purposes. If interested, you may explore additional chapters for further learning.
+
+#### **Demo**
+- **Stock-related Time Series Analysis**:
+  - [Kaggle Tutorial: Everything You Can Do With a Time Series](https://www.kaggle.com/code/thebrownviking20/everything-you-can-do-with-a-time-series)
+    - A comprehensive tutorial, though it may be slightly outdated for local execution. Use the "copy and run" feature on Kaggle for experimentation.
+- **General Time Series**:
+  - [Kaggle Tutorial: Avocado Price Forecast with ARIMA/SARIMA](https://www.kaggle.com/code/tanmay111999/avocado-price-forecast-arima-sarima-detailed#Time-Series-Analysis)
+
+> **Note**: Focus on ARIMA and SARIMA as foundational tools. For those with a background in Machine Learning or an interest in advanced techniques, consider exploring [Recurrent Neural Networks (RNN)](https://en.wikipedia.org/wiki/Recurrent_neural_network), [NN for forcasting](https://medium.com/microsoftazure/neural-networks-for-forecasting-financial-and-economic-time-series-6aca370ff412).
+
+#### **Activities**
+1. **Data Collection**:
+   - Scrape stock data from websites.
+2. **Visualization**:
+   - Plot stock data to identify patterns.
+3. **Analysis**:
+   - Compute moving averages to smooth trends.
+
 
 ---
 
