@@ -89,7 +89,7 @@ To understand fundamental concepts of time series analysis, including trends and
   - Read lessons 1, 2, 3, and 4 (theoretical concepts).
 - **Python Practicals**:
   - Learn to use ARIMA and SARIMA models from the `statsmodels.tsa` package.
-  - [Microsoft Introduction to ML: ARIMA](https://github.com/microsoft/ML-For-Beginners/tree/main/7-TimeSeries/2-ARIMA): Also try to do `assignment.md` given here.
+  - [Microsoft Introduction to ML: ARIMA](https://github.com/microsoft/ML-For-Beginners/tree/main/7-TimeSeries/2-ARIMA): Also try to do `assignment.md` given [here](https://github.com/microsoft/ML-For-Beginners/blob/main/7-TimeSeries/2-ARIMA/assignment.md).
 
 > **Note**: The recommended book includes R code examples, which are not essential for this course. Python is sufficient for our purposes. If interested, you may explore additional chapters for further learning.
 
